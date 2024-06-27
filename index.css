@@ -1,0 +1,147 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+
+
+}
+body{
+    background: rgb(231, 231, 231);
+}
+header{
+    padding: 20px 70px;
+    background: rgb(31, 30, 30);
+}
+    
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    }
+.navigation .logo{
+    width: 50px;
+
+}    
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap:60px;
+
+}
+    .navigation ul li a {
+        color: #888;
+        font-weight: 600;
+        padding-bottom: 4px;
+        transition: all 0.5s ease-in-out;
+    }
+    .navigation ul li a:hover{
+        color: white;
+        border-bottom: 1px solid white;
+    }
+.navigation .check{
+    color: white;
+    border-bottom: 1px solid white;
+}
+/*o main nao esta funcionando
+/*main*/
+
+main section {
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+
+
+}
+
+.main-text img{
+    width: 15rem;
+    margin-bottom: 3vh;
+}
+.main-text h3{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.main-text p{
+    margin-bottom: 1.8rem;
+
+}
+.main-text h6{
+    color: #df0000; 
+   font-size: 1rem;
+   margin-bottom: 2rem;}
+
+
+.main-text .btn{
+ padding:10px 25px ; 
+ background: #0061b1;  
+color: #ffffff;
+border-radius: 20px;
+transition: all 0.4s;
+
+
+}
+.main-text .btn:hover{
+    opacity: .70;
+}
+.main-text .text h5 {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.main-text .content{
+   display: flex;
+   align-items: center;
+   gap: 10px; 
+}
+.main-text .content span {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 3px 3px #888;
+}
+.main-text .content span:hover{
+   opacity: .80; 
+}
+#green{
+    background: #384937;
+}
+#pink{
+    background: #f8ddd6;
+}
+#blue{
+    background:#093e7a;
+}
+#black{
+    background: #131313;
+}
+#white{
+    background: #ffffff;
+}
+#red{
+    background: #df0000;
+}
+.main-img  {
+    transition: all 1s ease;
+    z-index: 500px;
+
+}
+.main-img img{
+    width: 500px;
+    transform: rotate(-7deg);
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ff3300;
+    clip-path: circle(800px at right 1000px);
+}
